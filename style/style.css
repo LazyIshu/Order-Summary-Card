@@ -1,0 +1,143 @@
+
+@import "root.css";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+body{
+   
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("/images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: var(--Pblue);
+    font-size: var(--Fsize);
+}
+
+.cont{
+    background-color:  white;
+    max-width: 370px;
+    text-align: center;
+    border-radius: 20px;
+    margin: 1rem;
+    
+}
+
+.illu svg{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.text{
+    margin: 2rem;
+}
+
+.text h1{
+    color: var(--Dblue);
+    font-size: 1.4rem;
+    font-family: var(--Family);
+    font-weight: var(--W3);
+    padding-bottom: .8rem;
+}
+
+.disc{
+    color: var(--Desblue);
+    font-size: .9rem;
+    font-family: var(--Family);
+    font-weight: var(--W1);
+    padding-bottom: 1.5rem;
+}
+
+.plan{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--Very-pblue);
+    padding: 1rem;
+    border-radius: 10px;
+    font-family: var(--Family);
+    margin-bottom: 1rem;
+}
+
+.music{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.tex h5{
+    color: var(--Dblue);
+    font-weight: var(--W3);
+    font-size: .9rem;
+    padding-bottom: .3rem;
+}
+
+.tex span{
+    color: var(--Desblue);
+    font-weight: var(--W1);
+    font-size: .9rem;
+}
+
+.plan a{
+    font-size: .9rem;
+    font-weight: var(--W2);
+    color: var(--Bblue)
+}
+
+.plan a:hover{
+    text-decoration: none;
+    color: hsla(245, 71%, 60%, 1);
+    cursor: pointer;
+
+}
+
+.bu1{
+    width: 100%;
+    font-weight: var(--W2);
+    font-size: .9rem;
+    
+    color: var(--Very-pblue);
+    background-color: var(--Bblue);
+    border: 1px solid var(--Bblue);
+    border-radius: 9px;
+    padding: .8rem;
+    margin-bottom: 1rem;
+}
+
+.bu1:hover{
+    background-color:  hsla(245, 71%, 60%, 1) ;
+    border: 1px solid hsla(245, 71%, 60%, 1);
+    cursor: pointer;
+}
+
+.bu2{
+    width: 100%;
+    background-color: white;
+    border: 1px solid white;
+    color: var(--Desblue);
+    font-weight: var(--W2);
+    
+}
+
+.bu2:hover{
+    color: black;
+}
+
+@media screen and (max-width: 400px) {
+
+    body{
+        background-image: url(/images/pattern-background-mobile.svg);
+        font-size: 14px;
+    }
+    
+}
+
+
+
